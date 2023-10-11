@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    
+    
+    margin: 40px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: #bfc7c1bd;
+    color:#020202;
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 2px rgb(21, 5, 5);
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-bottom: 30px;
+ 
+}
+
+img {
+    width: 190px;
+    height: 185px;
+    border-radius: 50%;
+    border: 5px solid rgb(6, 39, 110);
+  margin : 0 auto;
+
+}
+
+#b-age{
+    background: rgb(7, 35, 75);
+    color: rgb(238, 235, 232);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+ }
+ #b-date{
+    background: rgb(7, 35, 75);
+    color: rgb(206, 209, 218);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+ }
+ 
+#avatar{
+    width: 800px;
+    height: 600px;
+  
+
+        margin: 0 auto;
+        border: 6px solid rgb(90, 4, 4);
+        border-radius: 10px;
+    
+
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
